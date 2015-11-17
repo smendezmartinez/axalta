@@ -16,7 +16,7 @@
     <jsp:include page="../fragments/bodyHeader.jsp"/>
   
     <h2>Online Services</h2>
-    
+     
 <p>&nbsp;</p>
  <spring:url value="/owners.html" var="formUrl"/>
     <form:form modelAttribute="owner" action="${fn:escapeXml(formUrl)}" method="post" class="form-horizontal"
