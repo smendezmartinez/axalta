@@ -2,8 +2,9 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
 
-<spring:url value="/resources/images/header.png" var="banner"/>
-<!-- spring:url value="/resources/images/accenture6.jpg" var="banner"/ --> 
+<!--spring:url value="/resources/images/header.png" var="banner"/-->
+<spring:url value="http://www.automotivepurchasing.com/uploads/_CGSmartImage/img-e3fa63447b522a7446731f01aefd52cf" var="banner"/>
+
 <img src="${banner}"/>
  
 
